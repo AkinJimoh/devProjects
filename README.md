@@ -9,10 +9,10 @@ environment.
   * Deploy to a target environment when the job is successful.	
 * The target environment should consist of:	
   * A load-balancer accessible via HTTP on port 80.	
-  * Two application servers (this repository) accessible via HTTP on port 3000.	
+  * Two application servers accessible via HTTP on port 3000.	
 * The load-balancer should use a round-robin strategy.	
 * The application server should return the response "Hi there! I'm being served from {hostname}!".	
-* The application should ideally be containerized with the image stored in ECR.
+* The application should be containerized with the image stored in ECR.
 
  ## Context	
 The aim of this is to test your ability to implement modern automated infrastructure, as well as your general knowledge of system administration. In your solution you should emphasize readability, maintainability and DevOps methodologies.	
